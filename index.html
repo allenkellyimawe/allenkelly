@@ -22,6 +22,20 @@
       text-transform: uppercase;
       letter-spacing: 2px;
     }
+    h2.dropbox-header {
+      text-align: center;
+      margin: 0.5em 0;
+      font-size: 1.2em;
+    }
+    h2.dropbox-header a {
+      color: #2980b9;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    h2.dropbox-header a:hover {
+      color: #2c3e50;
+      text-decoration: underline;
+    }
     .embed-container {
       position: relative;
       width: 100%;
@@ -74,21 +88,16 @@
       border-bottom: 2px solid #2980b9;
       padding-bottom: 0.2em;
     }
-    .dropbox-link a {
-      color: #2980b9;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
-    .dropbox-link a:hover {
-      color: #2c3e50;
-      text-decoration: underline;
-    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Professional Resume</h1>
+    <h2 class="dropbox-header">
+      <a href="https://www.dropbox.com/home/Portfolio%20Data%20Analytics" target="_blank" rel="noopener">
+        Data Analytics Portfolio
+      </a>
+    </h2>
     <div class="embed-container">
       <iframe loading="lazy"
               src="https://www.canva.com/design/DAGfq2M0lcY/hiv3TmzXhrzWuQat9ZGM2g/view?embed"
@@ -102,11 +111,6 @@
       </a>
     </div>
     <div class="section-title">Professional Work Experience</div>
-    <div class="dropbox-link">
-      <a href="https://www.dropbox.com/home/Portfolio%20Data%20Analytics" target="_blank" rel="noopener">
-        View my Data Analytics Portfolio on Dropbox
-      </a>
-    </div>
   </div>
 </body>
 </html>
